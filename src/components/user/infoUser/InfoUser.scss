@@ -1,0 +1,328 @@
+@import '../../../scss/index.scss';
+
+.info-user{
+    margin: 20px;
+
+    *{
+        margin:0;
+    }
+
+    svg{
+        width:15px;
+        height:15px;
+        fill:$font-grey;
+    }
+
+    .name{
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .email{
+        font-size: 14px;
+        color: $font-grey;
+    }
+
+    .bio{
+        margin: 10px 0;
+        white-space: pre-line;
+    }
+
+    .more-info{
+        display:flex;
+        align-items: center;
+    }
+
+    p,a {
+        color: $font-grey;
+        padding-right: 21px;
+        svg{
+            margin-right: 10px;
+        }
+    }
+
+    a{
+        color:$primary;
+    }
+
+}
+
+@media screen and (max-width: 748px) {
+    .info-user{
+        margin: 20px;
+    
+    
+        svg{
+            width:15px;
+            height:15px;
+            fill:$font-grey;
+        }
+    
+        .name{
+            font-size: 25px;
+        }
+    
+        .email{
+            font-size: 14px;
+            color: $font-grey;
+        }
+    
+        .bio{
+            margin: 10px 0;
+            white-space: pre-line;
+            font-size: 1rem;
+        }
+    
+        .more-info{
+            display:flex;
+            align-items: center;
+            font-size: 1rem;
+        }
+    
+        p,a {
+            color: $font-grey;
+            padding-right: 21px;
+            svg{
+                margin-right: 10px;
+            }
+        }
+
+        a{
+            color:$primary;
+        }
+    
+    }
+}
+
+@media screen and (max-width: 748px) {
+    .info-user{
+        margin: 20px;
+    
+    
+        svg{
+            width:15px;
+            height:15px;
+            fill:$font-grey;
+        }
+    
+        .name{
+            font-size: 25px;
+        }
+    
+        .email{
+            font-size: 14px;
+            color: $font-grey;
+        }
+    
+        .bio{
+            margin: 10px 0;
+            white-space: pre-line;
+            font-size: 1rem;
+        }
+    
+        .more-info{
+            display:flex;
+            align-items: center;
+            font-size: 1rem;
+        }
+    
+        p,a {
+            color: $font-grey;
+            padding-right: 21px;
+            svg{
+                margin-right: 10px;
+            }
+        }
+
+        a{
+            color:$primary;
+        }
+    
+    }
+}
+
+@media screen and (max-width: 687px) {
+    .info-user{
+        margin: 20px;
+    
+        svg{
+            width:15px;
+            height:15px;
+            fill:$font-grey;
+        }
+    
+        .name{
+            font-size: 23px;
+        }
+    
+        .email{
+            font-size: 14px;
+            color: $font-grey;
+        }
+    
+        .bio{
+            margin: 10px 0;
+            white-space: pre-line;
+            font-size: .8rem;
+        }
+    
+        .more-info{
+            display:flex;
+            align-items: center;
+            font-size: .8rem;
+        }
+    
+        p,a {
+            color: $font-grey;
+            padding-right: 21px;
+            svg{
+                margin-right: 10px;
+            }
+        }
+    
+        a{
+            color:$primary;
+        }
+
+    }
+}
+
+@media screen and (max-width: 587px) {
+    .info-user{
+        margin: 20px;
+    
+        svg{
+            width:10px;
+            height:10px;
+            fill:$font-grey;
+        }
+    
+        .name{
+            font-size: 20px;
+        }
+    
+        .email{
+            font-size: 12px;
+            color: $font-grey;
+        }
+    
+        .bio{
+            margin: 10px 0;
+            white-space: pre-line;
+            font-size: .7rem;
+        }
+    
+        .more-info{
+            display:flex;
+            align-items: center;
+            font-size: .69rem;
+        }
+    
+        p,a {
+            color: $font-grey;
+            padding-right: 16px;
+            svg{
+                margin-right: 6px;
+            }
+        }
+    
+        a{
+            color:$primary;
+        }
+
+    }
+}
+
+@media screen and (max-width: 587px) {
+    .info-user{
+        margin: 20px;
+    
+        svg{
+            width:6px;
+            height:6px;
+            fill:$font-grey;
+        }
+    
+        .name{
+            font-size: 18px;
+        }
+    
+        .email{
+            font-size: 10px;
+            color: $font-grey;
+        }
+    
+        .bio{
+            margin: 10px 0;
+            white-space: pre-line;
+            font-size: .6rem;
+        }
+    
+        .more-info{
+            display:flex;
+            align-items: center;
+            font-size: .6rem;
+        }
+    
+        p,a {
+            color: $font-grey;
+            padding-right: 5px;
+            svg{
+                margin-right: 6px;
+            }
+        }
+    
+        a{
+            color:$primary;
+        }
+
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .info-user{
+        margin: 20px;
+    
+        svg{
+            width:6px;
+            height:6px;
+            fill:$font-grey;
+        }
+    
+        .name{
+            font-size: 12px;
+        }
+    
+        .email{
+            font-size: 8px;
+            color: $font-grey;
+        }
+    
+        .bio{
+            margin: 10px 0;
+            white-space: pre-line;
+            font-size: .4rem;
+        }
+    
+        .more-info{
+            display:flex;
+            align-items: center;
+            font-size: .3rem;
+        }
+    
+        p,a {
+            color: $font-grey;
+            padding-right: 5px;
+            svg{
+                margin-right: 6px;
+            }
+        }
+    
+        a{
+            color:$primary;
+        }
+
+    }
+}
+
+

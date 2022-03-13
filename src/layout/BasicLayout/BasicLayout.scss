@@ -1,0 +1,18 @@
+@import '../../scss/index.scss';
+
+.basic-layout {
+    &__menu{
+        padding-right: 0 !important ;
+    }
+    &__content {
+        height: 100vh;
+        overflow-y: scroll ;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+    }
+}

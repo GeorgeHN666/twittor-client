@@ -1,0 +1,96 @@
+@import '../../scss/index.scss';
+
+.home {
+    &__title{
+        
+        border-bottom: 1px solid $border-grey;
+        padding: 15px;
+
+        h2{
+            font-size: 22px;
+            margin-bottom: 0px;
+            font-weight: bold;
+        }
+
+    }
+
+    .load-more.btn.btn-primary{
+        display: flex;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: transparent;
+        border: 0;
+        font-size: 1rem;
+        
+        &:hover,
+        &:focus {
+            background-color: transparent !important;
+            color: $primary;
+        }
+    }
+}
+
+@media screen and (max-width: 687px) {
+    .home {
+        &__title{
+            
+    
+            h2{
+                font-size: 18px;
+            }
+    
+        }
+    
+        .load-more.btn.btn-primary{
+            display: flex;
+            margin: 0 auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            background-color: transparent;
+            border: 0;
+            font-size: .8rem;
+
+
+            &:hover,
+            &:focus {
+                background-color: transparent !important;
+                color: $primary;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 487px) {
+    .home {
+        &__title{
+            
+    
+            h2{
+                font-size: 13px;
+            }
+    
+        }
+    
+        .load-more.btn.btn-primary{
+            font-size: .6rem;
+        }
+    }
+}
+
+@media screen and (max-width: 487px) {
+    .home {
+        &__title{
+            
+    
+            h2{
+                font-size: 8px;
+            }
+    
+        }
+    
+        .load-more.btn.btn-primary{
+            font-size: .4rem;
+        }
+    }
+}

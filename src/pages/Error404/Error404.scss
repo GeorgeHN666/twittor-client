@@ -1,0 +1,53 @@
+@import '../../scss/index.scss';
+
+.error404 {
+    min-height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img {
+        &:first-of-type {
+            width: 10%;
+            margin-bottom: 20px;
+        }
+        &:last-of-type {
+            width: 60%;
+        }
+    }
+
+    a {
+        margin-top: 30px;
+        color: $font-light;
+        font-size: 2rem;
+        font-weight: bold;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .error404 {
+        min-height: 100vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        img {
+            &:first-of-type {
+                width: 10%;
+                margin-bottom: 20px;
+            }
+            &:last-of-type {
+                width: 60%;
+            }
+        }
+    
+        a {
+            margin-top: 30px;
+            color: $font-light;
+            font-size: 1rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,849 @@
+@import '../../scss/index.scss';
+
+.tweet{
+    display: flex;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: 1px solid $primary;
+
+    .avatar{
+        min-width: 65px;
+        min-height: 65px;
+        max-width: 65px;
+        max-height: 65px;
+    }
+
+    .container{
+        .title{
+            display: flex;
+            align-self: flex-start;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            padding: 2px 0 2px 0;
+
+
+            h1{
+                display: inline-flex;
+                font-size: 1.4rem;
+                font-weight: bold;
+            }
+            p{
+                display: inline-flex;
+                align-self: flex-start;
+                margin-left: 15px;
+                margin-top: 5px;
+                font-size: .8rem;
+                color: $font-grey;
+            }
+
+            button{
+                background-color: $primary;
+                align-self: flex-start;
+                margin-left: 50%;
+                margin-top: 5px;
+                height: 20px;
+                width: 60px;
+                border-radius: 20px;
+                border: 1px solid $primary;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                span{
+                    font-size: .8rem;
+                }
+
+                &:hover{
+                    background-color: $danger;
+                    border: 1px solid $danger;
+                }
+
+            }
+
+        }
+
+        .mess{
+            margin-top: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-size: 1rem;
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 1277px) {
+    .tweet{
+        display: flex;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        border: 1px solid $primary;
+    
+        .avatar{
+            min-width: 65px;
+            min-height: 65px;
+            max-width: 65px;
+            max-height: 65px;
+        }
+    
+        .container{
+            .title{
+                display: flex;
+                align-self: flex-start;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                padding: 2px 0 2px 0;
+    
+    
+                h1{
+                    display: inline-flex;
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                }
+                p{
+                    display: inline-flex;
+                    align-self: flex-start;
+                    margin-left: 15px;
+                    margin-top: 5px;
+                    font-size: .8rem;
+                    color: $font-grey;
+                }
+    
+                button{
+                    background-color: $primary;
+                    align-self: flex-start;
+                    margin-left: 46%;
+                    margin-top: 5px;
+                    height: 20px;
+                    width: 60px;
+                    border-radius: 20px;
+                    border: 1px solid $primary;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    span{
+                        font-size: .8rem;
+                    }
+    
+                    &:hover{
+                        background-color: $danger;
+                        border: 1px solid $danger;
+                    }
+    
+                }
+    
+            }
+    
+            .mess{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size: 1rem;
+            }
+    
+        }
+    
+    }
+}
+
+@media screen and (max-width: 1234px) {
+    .tweet{
+        display: flex;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        border: 1px solid $primary;
+    
+        .avatar{
+            min-width: 65px;
+            min-height: 65px;
+            max-width: 65px;
+            max-height: 65px;
+        }
+    
+        .container{
+            .title{
+                display: flex;
+                align-self: flex-start;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                padding: 2px 0 2px 0;
+    
+    
+                h1{
+                    display: inline-flex;
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                }
+                p{
+                    display: inline-flex;
+                    align-self: flex-start;
+                    margin-left: 15px;
+                    margin-top: 5px;
+                    font-size: .8rem;
+                    color: $font-grey;
+                }
+    
+                button{
+                    background-color: $primary;
+                    align-self: flex-start;
+                    margin-left: 40%;
+                    margin-top: 5px;
+                    height: 20px;
+                    width: 60px;
+                    border-radius: 20px;
+                    border: 1px solid $primary;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    span{
+                        font-size: .8rem;
+                    }
+    
+                    &:hover{
+                        background-color: $danger;
+                        border: 1px solid $danger;
+                    }
+    
+                }
+    
+            }
+    
+            .mess{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size: 1rem;
+            }
+    
+        }
+    
+    }
+}
+@media screen and (max-width: 1146px) {
+    .tweet{
+        display: flex;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        border: 1px solid $primary;
+    
+        .avatar{
+            min-width: 65px;
+            min-height: 65px;
+            max-width: 65px;
+            max-height: 65px;
+        }
+    
+        .container{
+            .title{
+                display: flex;
+                align-self: flex-start;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                padding: 2px 0 2px 0;
+    
+    
+                h1{
+                    display: inline-flex;
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                }
+                p{
+                    display: inline-flex;
+                    align-self: flex-start;
+                    margin-left: 15px;
+                    margin-top: 5px;
+                    font-size: .8rem;
+                    color: $font-grey;
+                }
+    
+                button{
+                    background-color: $primary;
+                    align-self: flex-start;
+                    margin-left: 37%;
+                    margin-top: 5px;
+                    height: 20px;
+                    width: 60px;
+                    border-radius: 20px;
+                    border: 1px solid $primary;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    span{
+                        font-size: .8rem;
+                    }
+    
+                    &:hover{
+                        background-color: $danger;
+                        border: 1px solid $danger;
+                    }
+    
+                }
+    
+            }
+    
+            .mess{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size: 1rem;
+            }
+    
+        }
+    
+    }
+}
+
+@media screen and (max-width: 1110px) {
+    .tweet{
+        display: flex;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        border: 1px solid $primary;
+    
+        .avatar{
+            min-width: 65px;
+            min-height: 65px;
+            max-width: 65px;
+            max-height: 65px;
+        }
+    
+        .container{
+            .title{
+                display: flex;
+                align-self: flex-start;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                padding: 2px 0 2px 0;
+    
+    
+                h1{
+                    display: inline-flex;
+                    font-size: 1.4rem;
+                    font-weight: bold;
+                }
+                p{
+                    display: inline-flex;
+                    align-self: flex-start;
+                    margin-left: 15px;
+                    margin-top: 5px;
+                    font-size: .8rem;
+                    color: $font-grey;
+                }
+    
+                button{
+                    background-color: $primary;
+                    align-self: flex-start;
+                    margin-left: 30%;
+                    margin-top: 5px;
+                    height: 20px;
+                    width: 60px;
+                    border-radius: 20px;
+                    border: 1px solid $primary;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    span{
+                        font-size: .8rem;
+                    }
+    
+                    &:hover{
+                        background-color: $danger;
+                        border: 1px solid $danger;
+                    }
+    
+                }
+    
+            }
+    
+            .mess{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size: 1rem;
+            }
+    
+        }
+    
+    }
+}
+@media screen and (max-width: 1038px) {
+    .tweet{
+        display: flex;
+        padding: 10px 20px;
+        margin-bottom: 10px;
+        border-radius: 30px;
+        border: 1px solid $primary;
+    
+        .avatar{
+            min-width: 65px;
+            min-height: 65px;
+            max-width: 65px;
+            max-height: 65px;
+        }
+    
+        .container{
+            .title{
+                display: flex;
+                align-self: flex-start;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                padding: 2px 0 2px 0;
+    
+    
+                h1{
+                    display: inline-flex;
+                    font-size: 1.2rem;
+                    font-weight: bold;
+                }
+                p{
+                    display: inline-flex;
+                    align-self: flex-start;
+                    margin-left: 15px;
+                    margin-top: 5px;
+                    font-size: .8rem;
+                    color: $font-grey;
+                }
+    
+                button{
+                    background-color: $primary;
+                    align-self: flex-start;
+                    margin-left: 30%;
+                    margin-top: 5px;
+                    height: 20px;
+                    width: 60px;
+                    border-radius: 20px;
+                    border: 1px solid $primary;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    span{
+                        font-size: .8rem;
+                    }
+    
+                    &:hover{
+                        background-color: $danger;
+                        border: 1px solid $danger;
+                    }
+    
+                }
+    
+            }
+    
+            .mess{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size: 1rem;
+            }
+    
+        }
+    
+    }
+}
+
+@media screen and (max-width: 984px) {
+    .tweet{
+        .avatar{
+            min-width: 60px;
+            min-height: 60px;
+            max-width: 60px;
+            max-height: 60px;
+        }
+    
+        .container{
+            .title{
+                h1{
+                    display: inline-flex;
+                    font-size: 1rem;
+                    font-weight: bold;
+                }
+                p{
+                    margin-left: 15px;
+                    font-size: .6rem;
+                }
+    
+                button{
+                    margin-left: 25%;
+                    margin-top: 5px;
+                    height: 20px;
+                    width: 60px;
+                    border-radius: 20px;
+                    border: 1px solid $primary;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    span{
+                        font-size: .8rem;
+                    }
+    
+                    &:hover{
+                        background-color: $danger;
+                        border: 1px solid $danger;
+                    }
+    
+                }
+    
+            }
+    
+            .mess{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size: .9rem;
+            }
+    
+        }
+    
+    }
+}
+
+
+@media screen and (max-width: 852px) {
+    .tweet{
+        .avatar{
+            min-width: 55px;
+            min-height: 55px;
+            max-width: 55px;
+            max-height: 55px;
+        }
+    
+        .container{
+            .title{
+                h1{
+                    display: inline-flex;
+                    font-size: .8rem;
+                    font-weight: bold;
+                }
+                p{
+                    margin-left: 15px;
+                    font-size: .5rem;
+                }
+    
+                button{
+                    margin-left: 20%;
+                    margin-top: 5px;
+                    height: 20px;
+                    width: 60px;
+                    border-radius: 20px;
+                    border: 1px solid $primary;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    span{
+                        font-size: .8rem;
+                    }
+    
+                    &:hover{
+                        background-color: $danger;
+                        border: 1px solid $danger;
+                    }
+    
+                }
+    
+            }
+    
+            .mess{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size: .8rem;
+            }
+    
+        }
+    
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .tweet{
+        .avatar{
+            min-width:46px;
+            min-height: 46px;
+            max-width: 46px;
+            max-height: 46px;
+        }
+    
+        .container{
+            .title{
+                h1{
+                    display: inline-flex;
+                    font-size: .7rem;
+                    font-weight: bold;
+                }
+                p{
+                    margin-left: 10px;
+                    font-size: .5rem;
+                }
+    
+                button{
+                    margin-left: 20%;
+                    margin-top: 5px;
+                    height: 20px;
+                    width: 60px;
+                    border-radius: 20px;
+                    border: 1px solid $primary;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    span{
+                        font-size: .7rem;
+                    }
+    
+                    &:hover{
+                        background-color: $danger;
+                        border: 1px solid $danger;
+                    }
+    
+                }
+    
+            }
+    
+            .mess{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size: .8rem;
+            }
+    
+        }
+    
+    }
+}
+
+
+
+
+@media screen and (max-width: 705px) {
+    .tweet{
+        .avatar{
+            min-width:30px;
+            min-height: 30px;
+            max-width: 30px;
+            max-height: 30px;
+        }
+        
+        .container{
+            .title{
+                flex-direction: column;
+                h1{
+                    display: inline-flex;
+                    font-size: .7rem;
+                    font-weight: bold;
+                }
+                p{
+                    margin-left: 10px;
+                    font-size: .5rem;
+                    margin-top: -10px;
+                }
+                
+                button{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 80%;
+                    margin-top: -40px;
+                    height: 20px;
+                    width: 40px;
+                    border-radius: 20px;
+                    border: 1px solid $primary;
+                    span{
+                        font-size: .5rem;
+                    }
+    
+                    &:hover{
+                        background-color: $danger;
+                        border: 1px solid $danger;
+                    }
+    
+                }
+    
+            }
+    
+            .mess{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size: .5rem;
+            }
+    
+        }
+    
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .tweet{
+        .avatar{
+            min-width:30px;
+            min-height: 30px;
+            max-width: 30px;
+            max-height: 30px;
+        }
+        
+        .container{
+            .title{
+                flex-direction: column;
+                h1{
+                    display: inline-flex;
+                    font-size: .5rem;
+                    font-weight: bold;
+                }
+                p{
+                    margin-left: 10px;
+                    font-size: .5rem;
+                    margin-top: -10px;
+                }
+                
+                button{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 75%;
+                    margin-top: -35px;
+                    height: 15px;
+                    width: 35px;
+                    border-radius: 20px;
+                    border: 1px solid $primary;
+                    span{
+                        font-size: .4rem;
+                    }
+    
+                    &:hover{
+                        background-color: $danger;
+                        border: 1px solid $danger;
+                    }
+    
+                }
+    
+            }
+    
+            .mess{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size: .5rem;
+            }
+    
+        }
+    
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tweet{
+        .avatar{
+            min-width:30px;
+            min-height: 30px;
+            max-width: 30px;
+            max-height: 30px;
+        }
+        
+        .container{
+            .title{
+                flex-direction: column;
+                h1{
+                    display: inline-flex;
+                    font-size: .4rem;
+                    font-weight: bold;
+                }
+                p{
+                    margin-left: 10px;
+                    font-size: .3rem;
+                    margin-top: -10px;
+                }
+                
+                button{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 75%;
+                    margin-top: -30px;
+                    height: 3px;
+                    width: 10px;
+                    border-radius: 20px;
+                    border: 1px solid $primary;
+                    span{
+                        font-size: .2rem;
+                    }
+    
+                    &:hover{
+                        background-color: $danger;
+                        border: 1px solid $danger;
+                    }
+    
+                }
+    
+            }
+    
+            .mess{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size: .5rem;
+            }
+    
+        }
+    
+    }
+}
+
+@media screen and (max-width: 447px) {
+    .tweet{
+        .avatar{
+            min-width:30px;
+            min-height: 30px;
+            max-width: 30px;
+            max-height: 30px;
+        }
+        
+        .container{
+            .title{
+                flex-direction: column;
+                h1{
+                    display: inline-flex;
+                    font-size: .4rem;
+                    font-weight: bold;
+                }
+                p{
+                    margin-left: 10px;
+                    font-size: .3rem;
+                    margin-top: -10px;
+                }
+                
+                button{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 100%;
+                    margin-top: -30px;
+                    height: 3px;
+                    width: 10px;
+                    border-radius: 20px;
+                    border: 1px solid $primary;
+                    span{
+                        font-size: .2rem;
+                    }
+    
+                    &:hover{
+                        background-color: $danger;
+                        border: 1px solid $danger;
+                    }
+    
+                }
+    
+            }
+    
+            .mess{
+                margin-top: 10px;
+                font-size: .5rem;
+            }
+    
+        }
+    
+    }
+}

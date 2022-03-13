@@ -1,0 +1,307 @@
+@import '../../scss/index.scss';
+
+.tweets{
+    display: flex;
+    margin-top: 5px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: 1px solid $primary;
+    .ava{
+        min-width: 65px;
+        min-height: 65px;
+        max-width: 65px;
+        max-height: 65px;
+    }
+
+    .cont{
+        .title{
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            padding: 2px 0 2px 0;
+
+            h1{
+                display: inline-flex;
+                font-size: 1.4rem ;
+                font-weight: bold;
+
+            }
+            span{
+                display: inline-flex;
+                align-self: flex-start;
+                margin-left: 15px;
+                margin-top: 5px;
+                font-size: .8rem;
+                color: $font-grey;
+            }
+        }
+
+        .text{
+            margin-top: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            font-size:1rem;
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .tweets{
+        .ava{
+            min-width: 60px;
+            min-height: 60px;
+            max-width: 60px;
+            max-height: 60px;
+        }
+    
+        .cont{
+            .title{
+                padding: 2px 0 2px 0;
+    
+                h1{
+                    font-size: 1.1rem ;
+                }
+                span{
+                    margin-left: 15px;
+                    margin-top: 2px;
+                    font-size: .7rem;
+                }
+            }
+    
+            .text{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size:.9rem;
+            }
+    
+        }
+    
+    }
+
+}
+
+@media screen and (max-width: 648px) {
+
+    .tweets{
+        padding: 7px 15px;
+
+        .ava{
+            min-width: 55px;
+            min-height: 55px;
+            max-width: 55px;
+            max-height: 55px;
+        }
+    
+        .cont{
+            .title{
+                padding: 2px 0 2px 0;
+    
+                h1{
+                    font-size: 1rem ;
+                }
+                span{
+                    margin-left: 15px;
+                    margin-top: 2px;
+                    font-size: .6rem;
+                }
+            }
+    
+            .text{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size:.8rem;
+            }
+    
+        }
+    
+    }
+
+}
+
+@media screen and (max-width: 547px) {
+    .tweets{
+        // padding: 5px 10px;
+
+        .ava{
+            min-width: 45px;
+            min-height: 45px;
+            max-width: 45px;
+            max-height: 45px;
+        }
+    
+        .cont{
+            .title{
+                padding: 2px 0 2px 0;
+    
+                h1{
+                    font-size: .78rem ;
+                }
+                span{
+                    margin-left: 15px;
+                    margin-top: 2px;
+                    font-size: .5rem;
+                }
+            }
+    
+            .text{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size:.7rem;
+            }
+    
+        }
+    
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .tweets{
+
+        .ava{
+            min-width: 45px;
+            min-height: 45px;
+            max-width: 45px;
+            max-height: 45px;
+        }
+    
+        .cont{
+            .title{
+                padding: 2px 0 2px 0;
+    
+                h1{
+                    font-size: .8rem ;
+                }
+                span{
+                    margin-left: 15px;
+                    margin-top: 2px;
+                    font-size: .5rem;
+                }
+            }
+    
+            .text{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size:.6rem;
+            }
+    
+        }
+    
+    }
+}
+
+@media screen and (max-width: 487px) {
+    .tweets{
+
+        .ava{
+            min-width: 40px;
+            min-height: 40px;
+            max-width: 40px;
+            max-height: 40px;
+        }
+    
+        .cont{
+            .title{
+                padding: 2px 0 2px 0;
+    
+                h1{
+                    font-size: .5rem ;
+                }
+                span{
+                    margin-left: 15px;
+                    margin-top: 2px;
+                    font-size: .4rem;
+                }
+            }
+    
+            .text{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size:.5rem;
+            }
+    
+        }
+    
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .tweets{
+
+        .ava{
+            min-width: 25px;
+            min-height: 25px;
+            max-width: 25px;
+            max-height: 25px;
+        }
+    
+        .cont{
+            .title{
+                padding: 2px 0 2px 0;
+    
+                h1{
+                    font-size: .32rem ;
+                }
+                span{
+                    margin-left: 10px;
+                    margin-top: 2px;
+                    font-size: .1rem;
+                }
+            }
+    
+            .text{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size:.3rem;
+            }
+    
+        }
+    
+    }
+}
+
+@media screen and (max-width: 284px) {
+    .tweets{
+
+        .ava{
+            min-width: 20px;
+            min-height: 20px;
+            max-width: 20px;
+            max-height: 20px;
+        }
+    
+        .cont{
+            .title{
+                margin-right: 5px;
+    
+                h1{
+                    font-size: .12rem ;
+                }
+                span{
+                    margin-left: 10px;
+                    margin-top: 2px;
+                    font-size: .08rem;
+                }
+            }
+    
+            .text{
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                font-size:.10rem;
+            }
+    
+        }
+    
+    }
+}

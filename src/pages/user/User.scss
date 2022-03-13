@@ -1,0 +1,184 @@
+@import '../../scss/index.scss';
+
+.user{
+    &__title{
+        border-bottom: 1px solid $border-grey;
+        padding:15px;
+    }
+
+    h2 {
+        font-size: 22px;
+        margin-bottom: 0px;
+        font-weight: bold;
+    }
+
+    &__tweets{
+        overflow-x: hidden;
+        width: 100%;
+        &__title{
+            h3{
+                padding: 15px;
+                font-size: 18px;
+                border-bottom: 1px solid $border-grey;
+            }
+        }
+
+        > .btn.btn-primary{
+            display:flex;
+            margin:0 auto;
+            margin-top: 10px ;
+            margin-bottom: 10px;
+            background-color: transparent;
+            border: 0;
+            border-radius: 50%;
+        
+            &:hover,
+            &:focus{
+                background-color: transparent !important;
+                color: $primary;
+            }
+            &:active{
+                color: $danger;
+            }
+
+        }
+
+    }
+
+
+
+}
+
+@media screen and (max-width: 830px) {
+    .user{
+        &__title{
+            border-bottom: 1px solid $border-grey;
+            padding:15px;
+        }
+    
+        h2 {
+            font-size: 20px;
+        }
+    
+        &__tweets{
+            &__title{
+                h3{
+                    font-size: 17px;
+                    border-bottom: 1px solid $border-grey;
+                }
+            }
+    
+            > .btn.btn-primary{
+                font-size: 1rem;
+            }
+    
+        }
+    
+    
+    
+    }
+}
+
+@media screen and (max-width: 547px) {
+    .user{
+    
+        h2 {
+            font-size: 18px;
+        }
+    
+        &__tweets{
+            &__title{
+                h3{
+                    font-size: 15px;
+                    border-bottom: 1px solid $border-grey;
+                }
+            }
+    
+            > .btn.btn-primary{
+                font-size: .7rem;
+            }
+    
+        }
+    
+    
+    
+    }
+}
+
+@media screen and (max-width: 447px) {
+    .user{
+    
+        h2 {
+            font-size: 15px;
+        }
+    
+        &__tweets{
+            &__title{
+                h3{
+                    font-size: 13px;
+                    border-bottom: 1px solid $border-grey;
+                }
+            }
+    
+            > .btn.btn-primary{
+                font-size: .6rem;
+            }
+    
+        }
+    
+    
+    
+    }
+}
+
+@media screen and (max-width: 347px) {
+    .user{
+    
+        h2 {
+            font-size: 14px;
+        }
+    
+        &__tweets{
+            &__title{
+                h3{
+                    font-size: 12px;
+                    border-bottom: 1px solid $border-grey;
+                }
+            }
+    
+            > .btn.btn-primary{
+                font-size: .57rem;
+            }
+    
+        }
+    
+    
+    
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .user{
+    
+        h2 {
+            font-size: 10px;
+        }
+    
+        &__tweets{
+            &__title{
+                h3{
+                    font-size: 10px;
+                    border-bottom: 1px solid $border-grey;
+                }
+            }
+    
+            > .btn.btn-primary{
+                font-size: .5rem;
+            }
+    
+        }
+    
+    
+    
+    }
+}

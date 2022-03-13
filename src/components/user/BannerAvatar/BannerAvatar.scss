@@ -1,0 +1,186 @@
+@import '../../../scss/index.scss';
+
+.banner-avatar {
+    position: relative;
+    height: 220px;
+    width:100%;
+    margin-bottom: 60px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: $border-grey;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    border-bottom: 1.5px solid $border-grey;
+    .avatar{
+        position: absolute;
+        bottom: -50px;
+        left:20px;
+        background-color: $background-dark-light;
+        width: 150px;
+        height: 150px;
+        border: 1.5px solid $border-dark;
+        border-radius: 50%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .edit-profile{
+        position: absolute;
+        bottom: -50px;
+        right: 15px;
+
+        button{
+            border-radius: 50px;
+            background-color: $primary;
+            width: 150px;
+
+            &:hover{
+                background-color: $primary;
+                opacity: 0.6;
+            }
+
+            &.unfollow{
+                &:hover{
+                    border-color: $danger;
+                    background-color: $danger;
+
+                    &::before{
+                        content: "Unfollow";
+                    }
+
+                    span{
+                        display: none;
+                    }
+                }
+            }
+        }
+
+    }
+
+}
+
+@media screen and(max-width: 778px ) {
+    .banner-avatar {
+        height: 200px;
+        width:100%;
+        .avatar{
+            width: 130px;
+            height: 130px;
+        }
+    
+        .edit-profile{
+            position: absolute;
+            bottom: -50px;
+            right: 15px;
+    
+            button{
+                width: 135px;
+    
+            }
+    
+        }
+    
+    }
+}
+
+@media screen and(max-width: 620px ) {
+    .banner-avatar {
+        height: 170px;
+        width:100%;
+        .avatar{
+            width: 100px;
+            height: 100px;
+        }
+    
+        .edit-profile{
+            position: absolute;
+            bottom: -50px;
+            right: 15px;
+    
+            button{
+                width: 100px;
+                font-size: .8rem;
+            }
+    
+        }
+    
+    }
+}
+
+@media screen and(max-width: 520px ) {
+    .banner-avatar {
+        height: 150px;
+        width:100%;
+        .avatar{
+            width: 80px;
+            height: 80px;
+        }
+    
+        .edit-profile{
+            position: absolute;
+            bottom: -50px;
+            right: 15px;
+    
+            button{
+                width: 80px;
+                font-size: .7rem;
+            }
+    
+        }
+    
+    }
+}
+
+@media screen and(max-width: 420px ) {
+    .banner-avatar {
+        height: 130px;
+        width:100%;
+        .avatar{
+            width: 60px;
+            height: 60px;
+        }
+    
+        .edit-profile{
+            position: absolute;
+            bottom: -50px;
+            right: 15px;
+    
+            button{
+                width: 60px;
+                font-size: .4rem;
+
+            }
+    
+        }
+    
+    }
+}
+
+@media screen and(max-width: 320px ) {
+    .banner-avatar {
+        height: 100px;
+        width:100%;
+        .avatar{
+            width: 50px;
+            height: 50px;
+            bottom: -30px;
+            left:10px;
+        }
+    
+        .edit-profile{
+            position: absolute;
+            bottom: -30px;
+            right: 15px;
+    
+            button{
+                width: 50px;
+                font-size: .3rem;
+
+            }
+    
+        }
+    
+    }
+}

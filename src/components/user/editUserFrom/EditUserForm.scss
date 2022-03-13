@@ -1,0 +1,75 @@
+@import '../../../scss/index.scss';
+
+.edit-user{
+    padding:0 20px 0 20px;
+
+
+    .banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $background-dark-light;
+        background-position: center;
+        padding: -25px;
+        height:180px;
+        width: 100%;
+        border: 2px solid $border-grey;
+        background-size: cover;
+        background-repeat: no-repeat;
+        &:hover{
+            cursor: pointer;
+        }
+        svg{
+            width: 50px;
+            height: 650px;
+            fill:$font-light;
+            &:hover{
+                fill: $font-dark;
+            }
+        }
+    }
+
+    .avatar{
+        position: absolute;
+        width: 120px;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $background-dark-light;
+        margin: -175px 0 0 6px;
+        border: 2px solid $border-grey;
+        border-radius: 50%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        &:hover{
+            cursor:pointer;
+        }
+
+        svg{
+            width: 30px;
+            height: 30px;
+            fill: $font-light;
+
+            &:hover{
+                fill:$font-dark;
+            }
+
+        }
+
+    }
+
+    .btn-submit{
+        position: absolute;
+        top: -44px;
+        right: 25px;
+        border-radius: 50px;
+        font-size: 16px;
+        padding: 4px 15px 4px 15px;
+        display: flex;
+        align-items: center;
+    }
+
+}
